@@ -1,0 +1,76 @@
+body {
+  font-family: 'Georgia', serif;
+background: linear-gradient(45deg, #d4f5b7, #fef3a1);
+  text-align: center;
+  color:#a19f7d;
+  font-size:25px;
+ h1{
+    text-shadow:7px 7px 4px #e0deb8;
+  }
+ h2{
+    text-shadow:7px 7px 4px #e0deb8;
+  }
+button {
+  background-color: #ffc34d;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(255, 87, 34, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#winter{
+  position: absolute;
+  border-radius:50px;
+  top: 45px;
+  left: 30px;
+}
+#ico{
+  width:340px;
+  height:230px;
+  border-radius:30px;
+}
+  
+.intro-box {
+  position: absolute;
+  width:300px;
+  bottom: 200px;
+  left: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-size:40px;
+  text-align: center;
+}
+.intro-box h3 {
+  margin: 0;
+  font-size:40px;
+  color: #a19f7d;
+}
+
+.intro-box p {
+  margin-top: 10px;
+  font-size:30px;
+  color: #a19f7d;
+}
+
+  p{
+    text-shadow:7px 7px 4px #e0deb8;
+  }
+  h3{
+    text-shadow:7px 7px 4px #e0deb8;
+  }
+  
+#top-right-image {
+  position: absolute;        
+  top: 50px;              
+  right: 75px;            
+  width: 200px;         
+  height: 200px;          
+  border-radius: 50%;     
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2)
+}
